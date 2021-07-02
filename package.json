@@ -1,0 +1,23 @@
+{
+  "name": "@sintese/express-error-handler",
+  "version": "1.0.0",
+  "description": "Middleware de tratamento de erros para o expressjs",
+  "main": "src/error.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelbeecker/express-error-handler.git"
+  },
+  "keywords": [
+    "express",
+    "middleware"
+  ],
+  "author": "Rafael Becker (https://github.com/rafaelbeecker)",
+  "license": "MIT",
+  "dependencies": {
+    "http-status-codes": "^2.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelbeecker/express-error-handler/issues"
+  },
+  "homepage": "https://github.com/rafaelbeecker/express-error-handler#readme"
+}
