@@ -1,7 +1,7 @@
 {
   "name": "@sintese/express-error-handler",
   "version": "1.0.0",
-  "description": "Middleware de tratamento de erros para o expressjs",
+  "description": "Middleware para captura e tratamento de erros para expressjs",
   "main": "src/error.js",
   "repository": {
     "type": "git",
