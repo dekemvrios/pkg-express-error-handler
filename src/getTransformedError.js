@@ -1,10 +1,10 @@
 const HttpStatus = require('http-status-codes')
 
-const toUnifiedError = ({status, message = ''}) => {
+const toUnifiedError = ({ status, message = '' }) => {
     const error = HttpStatus.getReasonPhrase(status)
-    const payload = {status, error}
+    const payload = { status, error }
     if (message && message.toLowerCase() !== error.toLowerCase()) {
-        return {...payload, message}
+        return { ...payload, message }
     }
     return payload
 }
